@@ -1,0 +1,41 @@
+#map
+{
+    height: 400px;
+    width: 100%;
+}
+
+input
+{
+    width: 100%;
+    border: .5 lightgrey solid ;
+}
+.col-6
+{
+    padding: 0%;
+}
+label
+{
+    padding-top: 1%;
+    color: #a09e9c;
+}
+p{
+    margin-left: 0%;
+}
+i
+{
+color: red;
+font-size: 6px;
+}
+
+input[type=submit]
+{
+    width: 85px;
+    background-color: #e99c2e;
+    color: white;
+    border: none;
+    height: 32px;
+    margin-bottom: 5%;
+    padding-top: 0%;
+    margin-top: 0%;
+    
+}

@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+<<<<<<< HEAD
 
+=======
+@import "~bootstrap/dist/css/bootstrap.css"
+>>>>>>> 13aec7e3b5b23e9e8fc9a21a7db3a67ca0990c19
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

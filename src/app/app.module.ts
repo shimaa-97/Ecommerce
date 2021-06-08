@@ -8,6 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/User/login/login.component';
 import { ForgotPasswordComponent } from './components/User/forgot-password/forgot-password.component';
 import { RegistartionComponent } from './components/User/registartion/registartion.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+
+
 
 @NgModule({
   declarations: [
@@ -15,12 +22,18 @@ import { RegistartionComponent } from './components/User/registartion/registarti
     HeaderComponent,
     LoginComponent,
     ForgotPasswordComponent,
-    RegistartionComponent
+    RegistartionComponent,
+    FooterComponent,
+    HomeComponent,
+    AboutUsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    GoogleMapsModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

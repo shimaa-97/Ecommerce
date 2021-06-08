@@ -1,0 +1,139 @@
+.col-4
+{
+    margin-top: 4%;
+}
+#footer
+{
+    background-color: #121214;
+    color: #a09e9c;
+    font-size: 12px;
+    padding-bottom: 6%;
+}
+
+.link
+{
+    padding-left: 10%;
+}
+ul
+{
+    list-style-type: none;
+    padding-left: 0%;
+}
+ul li
+{
+    padding-bottom: 15px;
+}
+.arrow
+{
+    font-size: 12px;
+    padding-right: 5px;
+}
+a:hover
+{
+    color: #e99c2e;
+}
+/* information contact  */
+i{
+    font-size: 18px;
+}
+hr
+{
+  background-color: rgb(233, 233, 233);
+  width: 70%;
+  margin-top: 0;
+
+}
+h3
+{
+margin-bottom: 5%;
+font-size: 18px;
+}
+
+.info
+{
+    padding-left: 4%;
+    margin-right: 0px;
+   
+}
+.col-10
+{
+    padding-left: 0px;
+}
+a{
+    color: #a09e9c;
+    text-decoration: none;
+}
+
+/* first to know */
+#giveEmail
+{
+    margin-top: 15%;
+}
+input 
+{
+    background-color: #121214;
+    border: .5px #a09e9c solid ;
+   
+}
+input[type=email]
+{
+    width: 180px;
+    height: 25px;
+}
+input[type=submit]
+{
+    width: 70px;
+    color: #a09e9c;
+    height: 25px;
+}
+
+
+
+/* /////////////////////////// */
+.col-3
+{
+    padding-top: 2%;
+}
+.col-3 p
+{
+    font-size: 12px;
+    color: lightgrey;
+}
+
+img
+{
+  padding-right: 4%;
+  width:100%;
+   height:40px
+}
+
+.upButtom
+{
+    font-size: 30px;
+
+}
+.upButtom:hover
+{
+    color: #e99c2e;
+}
+
+
+
+  @media only screen and (max-width: 600px) {
+    .col-4,.col-2,.col-10{width: 100%;}
+
+    .row
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    [class*="col-"]
+    {
+     max-width: 100%;
+     margin-bottom: 5px;
+    
+    } 
+  }
+  
+  
