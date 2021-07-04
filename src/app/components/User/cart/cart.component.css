@@ -1,0 +1,94 @@
+ .headline{
+    color: #484747;
+    padding-bottom: 5px;
+  }
+  .container{
+      padding: 30px;
+  }
+  .orders{
+    border: 1px solid #ddd;
+  }
+  hr{
+    border: 1px solid #ddd;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  .product_detailis{
+    text-align:center;
+    /* height: 100px; */
+  }
+  h3{
+    padding-top: 35px;
+  }
+
+  span{
+    font-size: 11px;
+     text-align: right; 
+    
+  }
+  .chekout{
+    background-color: #b1e2ff;
+    color: #61605a;
+     font-weight: 600;
+     font-size: 14px;
+     text-align: right;
+     /* text-align: center; */
+     font-family:mOswald;
+     height: 50px;
+     padding: 15px;
+     border:#ddd 2px solid ;
+     
+  }
+ .cart{
+   background-color: white;
+   color: #61605a;
+    font-weight: 600;
+    font-size: 13px;
+    /* text-align: right; */
+    text-align: center;
+    font-family:mOswald;
+    height: 50px;
+    padding: 15px;
+    border:#ddd 2px solid ;
+    margin: 0px;
+    width: 100%;
+ }
+ button:hover{
+   background-color:#b1e2ff ;
+ }
+ .bill{
+  border:#ddd 2px solid ;
+  background-color: #f1f1f1;
+ }
+ frist_row{
+  
+   border:#ddd 2px solid ;
+   
+ }
+ h4{
+  padding-top: 16px;
+  font-size: 20px;
+   font-weight: 700;
+   text-align: left;
+   text-transform: uppercase;
+   font-family:monospace; 
+ }
+ .subtotal{
+   background-color:#fbfbfb;
+   border:#ddd 2px solid ;
+ }
+ .total{
+   text-align: right;
+   float: right;
+   font-size: 18px;
+  color: black;
+  font-weight: 300;
+ }
+ .span1{
+   font-size: 18px;
+   color: rgb(163, 162, 162);
+   font-weight: 300;
+ }
+ 

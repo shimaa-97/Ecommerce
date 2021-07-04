@@ -13,6 +13,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { ResetPasswordComponent } from './components/User/reset-password/reset-password.component';
+import { CartComponent } from './components/User/cart/cart.component';
+import { WishListComponent } from './components/User/wish-list/wish-list.component';
 
 
 
@@ -26,7 +29,10 @@ import { GoogleMapsModule } from '@angular/google-maps';
     FooterComponent,
     HomeComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ResetPasswordComponent,
+    CartComponent,
+    WishListComponent
   ],
   imports: [
     BrowserModule,
